@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<session name="" tempo="120.0" notes="" beatsPerBar="4" beatDivisor="2">
+  <graphs active="0">
+    <node type="graph" uuid="a94e787364ab427e89211572dc80ab79" name="Graph"
+          bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127"
+          transpose="0">
+      <nodes>
+        <node id="5" type="plugin" format="Internal" identifier="element.midiInputDevice"
+              name="The Laboratory" relativeX="0.1977750309023486" relativeY="0.1507853403141361"
+              pluginIdentifierString="Internal--be855ded-0" uuid="1489ab9a84c84921a8a2eeb18ddca186"
+              bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127.0"
+              transpose="0" x="260.0" y="121.0" state="100.VMjLgrE....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUFHo4Fb0QGQkYWZiUVOhDiHfPVY1k1Xk4TXsUVOhPEZkABSgI1axEFcuIWdh7hO.."
+              programState="100.VMjLgrE....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOyQWXzUFHo4Fb0QGQkYWZiUVOhDiHfPVY1k1Xk4TXsUVOhPEZkABSgI1axEFcuIWdh7hO.."
+              program="1" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="midi" name="MIDI" symbol="midi_out_0"
+                  flow="output"/>
+          </ports>
+        </node>
+        <node id="9" type="plugin" format="Internal" identifier="audio.output"
+              name="Komplete Audio 6" relativeX="0.2051915945611867" relativeY="0.7842931937172775"
+              pluginIdentifierString="Internal--83a94619-0" uuid="ab77e5d6a9244027b68ef01b3cf67489"
+              bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127"
+              transpose="0" x="262.0" y="726.0" program="0" midiProgram="0"
+              globalMidiPrograms="0" midiProgramsEnabled="0" mute="0" muteInput="0"
+              midiProgramsState="" oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="audio" name="Main Output L" symbol="audio_in_1"
+                  flow="input"/>
+            <port index="1" channel="1" type="audio" name="Main Output R" symbol="audio_in_2"
+                  flow="input"/>
+            <port index="2" channel="2" type="audio" name="Output 3 L" symbol="audio_in_3"
+                  flow="input"/>
+            <port index="3" channel="3" type="audio" name="Output 4 R" symbol="audio_in_4"
+                  flow="input"/>
+            <port index="4" channel="4" type="audio" name="S/PDIF Output L" symbol="audio_in_5"
+                  flow="input"/>
+            <port index="5" channel="5" type="audio" name="S/PDIF Output R" symbol="audio_in_6"
+                  flow="input"/>
+          </ports>
+        </node>
+        <node id="10" type="plugin" format="VST" identifier="C:\Program Files\VSTPlugins\Dexed.dll"
+              name="Dexed" relativeX="0.1990111248454882" relativeY="0.6010471204188481"
+              pluginIdentifierString="VST-Dexed-f135f15f-44657864" uuid="9acabc6a868142bb948d7248b08461c5"
+              bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127.0"
+              transpose="0" x="262.0" y="551.0" windowX="814" windowY="290"
+              windowVisible="0" state="6298.CMlaKA....fQBMDZ....APTY3QF.A.......f.............................................................................................................................................................................vE5a0PxDR7W...7PVY3UFYSQWXzUFHiUGcuYlY8HRLt.CLv.CLv.CLv.CLv.CLv.CLv.CLh.hbkM2a8HBLt.CLv.CLv.CLv.CLv.CLv.CLv.CLh.xYgkla8HRLt.CLv.CLv.CLv.CLv.CLv.CLv.CLh.xX0Imbk4FcPI2amIWXs0iHxLiHfz1at8VSuQVY8HBLh.RYtcVZtUFU4AWY8HRLh.RagMGckIGU04VY8HBLh.xavM0coQ2Xn0iHwDSLwDSLh.xcnUVYr0zaj0iHv.BLf.CHvHBHl81az0zaj0iHv.BLf.CHvHBHhIWYgQGZM8FY8HBLf.CHv.BLh.RXlQWYxQ2a0MFZM8FY8HBLf.CHv.BLh.RXiQWZ1UlQowVYCElbzIWZjcVY8HxP5vUUyUlbywERRcDWAAGbDEFcgwkTuEVao41YbQTZmkFcgw1T0IVcxIVXtwEQkgWYjw0PgIGcxkFYmU1bbI0SMMGWR8VaxDlKykGdh3COjUFdkQlPr8lXfHVXyUlMznyb4MWY30iHzDCLz3hcOQjKI4hPtjFM5IEZAUDTtDjcI4hKt3xL1EzRJImKQkTTCEUZMw1UtHlPt3hKt.kKyrlKtvjUMUERFgkKAQjKs4hKt3hYD4RdHAkKDsFQGQTSwfkXAYWRt3hKt3RPlckPDYGVvP0YXYVPDAkKhIjKt3hKN4BQBETPPQkThAkdXk1cE4Rat3hKtX1PtLVRt3RZio2U2fTZLgGRCEDRLIjKt3hKJolKUI0PMo2TLgCQHYlKRIkQ2MjKo0jUX4hKB4RUtXmStbCZH4BRoE0YAYGVAc2PtXlKt3hKpIjKtjkKtT1cEczMLwlUt3hKL4hcC4RNDYGTB4hYXcUPt3xXuUjKt3hPtTkK14DRpslKtbCLW4hK1gkYqUjKl4hKt3BSocDRI4hK23hKCITSrY0YA4BRt3hKtDzc1gkPt3hKt3hKtfGRowDdDE0Pq4FdAk1YAYjQ2QUUTUEQHYlKnwjY2LjKLgkdXoUSF4Rdt3hKtn1Pt7TRt3xJt3xPF0DaVkVP1wjKt3hKz3hcRIjKlwzbxcVTo0TLW4BSC4hKtXmSHIGQD4BQFQETYoGVZETQtjmKt3hKpMjKKETPtrhKtLjQMwlUoEjcL4hKt3BMt3xTB4hKO4FTmEUY3TUUtvzPt3hK14DRLYjPt3hKt3hKlwDdHkFSBQETIAmKt3BVlc2TBgCUQYlKBgjYtHDRIkEQO4BSwf0YA4BRtPUPtXiK1sDUt.UUFUjQtjVQD8jKtHjKt3BTJ4BVCQjK2TzUhYWdXoUPt3hct3xStLyTtXict3BZiUjKtH1ZU4hKtfjKTEjK1XlKWgjK1cUYA4hKoEjUV4hKB4hKtXGSFAEQA4BQD4BSXoGVZUjQtXlKt3hKDQDQokjKt3hKt3hKHkFS3gzPD0DUnozQLYjQXwDQSETRUIkSUQTUl4BZVomZm0TZMECVtHlKt3hKl4jXLYjKtfDaBYzLogUZMYjKt3hKt3hKx3hdt4BQnQicA4RSwfUZA4hKt3hKtLCRlEkKtXGVPMiKPkVSrgkKPIjKt3hKNIjcD4hK2TjKYgUdXkVSF4Rat.UStH2TtrTPt3hKyYWPA0TLXkVPt3hKt3hKtvjcXIjKlc0P3TzS3gTZLgGQ2EDZDIjKtXVPFMUQDYkYHoGTl4hPHYlXSsTXXoGVkUUQt3lal8zPxMjKBcmKAcVPEQkQMwlUFEjKG4hKt3BMtX2TJ4hcM4hclEUZuACVtvzPt3hKP4DQlQjKtX2TKEFV5gUYUUjKQ4hKt3hbCETZQ4hKx3hKCYTSrYUZAYGSt3hKtPiKlMkKt3xSyI2YQkFNUUkKDEjKU4hcNwDSFEjKt3hKt3hYLgGRowTPLAURv4hKtfkclAUPMACUOgiZSYlKBgDR2olPlwjQW4hKt3hKt3hKy3hYQAkKtLURu4xQocWQt3hKt3hKt3hStfDQA4BQoIkRtfFVnEkPtfVPt3hKlMjKLEkKtj2MlITcLYzUt3hKt3hKt3haA4xUD4BTT0jXPYTZ2UzQt3hKt3hKtHjK1olKt3xPNozMngEZQIjKnEjKt3hYC4hXQ4hKTgCLWcCRowDdHMkKOMSTTgjKtnDSLUTURslZScTSEgjdtfmRO4lYKk1cE4hKt3hKt3hKN4xLCIjKxg2PJMCdXIVPt3hKt3hKtX1PtHTTt3Rb2XlPzwjQW4hKt3hKt3hKy3hcQIjKtbzStY1RocWQt3xLC4BZA4hXtX2Zt3BTvLjRyfGVhEjKt3hKt3hKtbjKKkjKtD1MlIDcLYzUt3hKt3hKt3hctXWUB4hKUUFNE8DdHkFS3QjcCklZpMjKlEjQSE0ZTkDM5E0TAIUSlMCLGgVTmgUPyPjKo4lKt3hZCcDRY4hKzY2PJ4lXvT0XA4hKt3hKtfkK1QkPtX2TDQyPJkVSwfkKt.kUMAkYJ4hcp4hKHMERtcCdXc0ZE4hKt3hKt3xQtfVRt3BbDglRRYWQTITPt3hKt3hKHEkKTYjKlsTUpcWSo81Pt3hKt3hKt3hKtH2Zt3BTvbUY2kFS3gTZL4jX1gzax4hKlYmcTQURUIkSioGUlg0PHQFNmgEUHYkKNEjcHojKt3xYP4RTBgTZKciYBozUiU0Ut3hKt3hKt3jK2nVPtbCQQkiY3gUZMYjKuIVUTUjaCETRIYFS1QjPJUGSwTUVA4hKt3hKt.UTtfkPHk2TDQyPJkVSwfkKPgFV0QkYJQzLp4hKlMERtcCdXc0ZE4hKt3hKt3RQtjVRt3BU3.yU2fTZLgGRS4xQDgGRO4hKHgESEUkTqo1TG0TQHIiKR0zTPcVSoc2ZU4hKt3hKtX2ShYGZt3BU4QDUXkVUhkUQt3hKt3hKyLzQFkjKtXVSAUTLLYzUVEjKt3hKt3xM1cFTB4hYUcGTQoTZA4hKt3BdNUESt7DQLwlKtfjQLEERogkKt3hKw3hKtLjYCMTRI4hKoE0PEMGSF4hKt3hKt3hKtXCT1gkPtX1UCgSQOgGRowDdDY2PmIlPB4hYAYzTQsFUIQidQMUPB4jYDkGVhAkZXg1bE4RaXk2QEAkKDIUPt3RSQIkRG0DaXgVP1kjKtX2PtXlYX4hKPMkZpgWTokDaX4hXB4hK23hKHwjQt3hdDMkTioGVnkjQtzlKt3xSt3hPoEjKtjCSSczQIAyUlEjcF4hX1EjcAYGUt3hKRwTSwDUZmUDVtHlPt3zMtHlK5UjKt.ELWU1cowDdHkFSUcCTI4hKt3xLlcFTRUjdTMUPBgjYPMDRvnmKOACRFQUUAYVSt3hKtjTPtbkPHMUSMY2TMgVPUUkKXMjKt3BTN4hZo4BdTM0P2PUZXAUUE4RLt3hKtnlPAQURlwTNXQTQwvjQWQUPt3hKt3hKZEjYXIDRS0Dc1MUSngCLW4BVC4hKt.kKDgzZt3xLoEEUXkGVmgSQt3hKt3hKtMTPokjKtPVS5c0MHkFS3gzTt7DRRgjKhQjQLgjZTETSvPkYtHDRv3hPOgCSmEUZIYEVt3hKt3hKP4zQLslKt.EQEQEV5gUY3TjKt3hKt3ha4ETZI4hKDEUPEYTSwbUYA4hKt3hKtTiXPgkPt3RTTA0YQkVPwbkKt3hKt3hYNcDSr4hK1k2POgkdXoUPE4hKt3hKt3VdAkURt3BQQETQF0TLWUVPt3hKt3hK0HlcXIjKlc0P3TzS3gTZLgGU2MDZDIjKtX1PFITRUA0TMUDRw3BZPMTQo0jUHkGV4LyPt3hKt3hKlMjKFkETAIzcqUDdTM0S43hcI4hKPMzLtXVUB4hKIoFUA8TZuUDUt3hKt3hKl4jK5olKt.EQFMkX4gkUYUjKt3hKt3haC4RZI4hKpAkTEcCSrYETA4hKt3hKtTiKPQkPt3RTXwzcMkVVqUkKt3hKt3hYNgzMq4hKtX2UkcWZLgGRowzQhY2QyQjKt.kYmAkTEoGUSEjPHYlXCgzbtflQ4wjQVIUPt3hKt3RPz3xYT4hKP4zZLYFSok0Pt3hXB4hKXYmStvjQt3BUTkzPHkGVw3hKtzlKt3hQxMjKoEjKtjCU34RdLwVSt3hcI4hKlEjMtXGVB4hYQsFSt3TZYMjKtHlPt3BVl4DQXUjKtH2TIMja4gULt3hKs4hKtXjaCETZA4hKTgCLWcCRowDdHMUQOwjPt3hKtnDSHoFUA0DLTYlKBgzLtf1TkkEQtjVPwHkKhMjKKEDTNIjZEEjKtLjKLgkdXoUQF4Rdt3hKtn1PtTURt3RN2rVTtvjQX8TPtvjKyDjK2EjYVQjKlwjK1YVTo8VUX4BSC4hKt.kSTwDatDDS5ckQAYGVlgCQtXmK1AkKD4RPZEkKtjmKtLjQMwlUmEjcL4hKt3BMlYGVB4hKt3hKt3BdHkFS3QETAslankTZmETRRUkdP8TREEUQIUDRlwjQHgFM4g0PQMjKG4hKt3hYCcza1YmQAk0ZXkCRF4BZA4hKt3hKtXWPP8jRtXVRQwjUOk0a1ojKt3hKt3hKN4hYD4RPXMjSh4BQWcUPt3hZt3hKtX1PtjVRt3BaDcGV3n1ZBEmKt3hKt3hKyPjKtHjKl0zL1EDThMVQt3BTB4hKt3hKt3hKt3xLv.UY2kFS3gTZL4hXloDMX4hKtAkPRETRUM0SzPkTCUDULkVPngUNLECT54hcA4hKt3xL2DkRLIWTPYURr8DZAYFVt3hKt3hKtHVP5klPtfkTDkFLSYkRxIjKt3hKt3hYS4BRAAkKwX1PG4xcvfUZA4RRt3hKtLCS1gkPtXGSQwjUOk0a1ojKt3hKt3hKNEDSr4hKXMjSh4BQWcUPt3hZt3hKt3hctjVPt3BYMo2U2fTZLgGRC4xQtIkSFY2PJolYpQUSznGTAkzPHITS5gERAMEQo0TLX4hKt3hKt3BTtfzPBIDTBojZ2jGVFs1Pt3hKt3hKtLTP2fDTtfzcSoDSXsVTBslKt3hKt3BTQYGVBgjKLQEUosTZzTEVt3hKt3hKtHFSLwlKtLycKMiZQ8zQUU0St3hKt3hYoITZI4hKz.UTMQCSrc0YA4hKt3hKt3hK1UkPtXFQ2bSQOYGSowDdXY2PowDdBIjKDYjU3PkTCUEQHYlKnwjYy3hT1QTTMUmZB4hKt3hKt3BQBQUTl4RYTETRqvDaVUUPt3hKt3hK1AkcXQDQlIzTpIzP141PEkjKt3hKt3BULY2ZtHzMAUDLhgGVjUjQt3hKt3hKtbzPokjKtLkaQ0TVyHjSGQiPt3hKt3xLyXVSD4hcGQEUS4TZzTEVt3hKt3hKt3hKLwlKtfTPOU1cCwTdHkFSDcicHkFUl4hKmcVUOsldPUTPBgjYLMDRjc1PFIiKrMkKt3hKt3hKtPCTAIkYtXGVEEjKXkVPt3hKPQEVt3hKNQEUDIjKLESTtPDaTYmKt3hcto1RtX1PEcVPA4RY2MESrwjUT4hKlgjKt3hK2X2cXIjK1gEcLIjKPMmdP4BVC4hKt3xSHgTQD4xMvrDY2fGVhEjKt3hKt3hKxMTPokjKtPVS5c0MHkFS3gTZA8DRRgjKt3hRpIFQS8zbTEkSMUDULEjTUg1MmwTZMMjKtHlPCwjcP8DTpsFQJcSUNkVR4gkYt3hKsYmKCwDUGMzTQYGV1QUQFAGSrYkKtXWRt3hKCEGTA0jSpIDUUc1YJk1aE4hKhIjKtXmchgDSr4hKDMUUX4FdXoUPt3Rat3hKLI2Ptbmat3BTUUjQvwDaV4hK1kjKt3xPC4hcXIjK1gEZyQzS3gTZLgGTl4hYt3hKt3hPFY0ZpAUQAIDRl4BZLYlKPQkLtX1TNEjKt7lKt3hKlMTQKclKtjVVvzjKtv1Tt3BTJ4hKt3xLlY2Tt3hcXkTPlMjTAMjKtf0PtPmKt3DRyrVPtbyZLcmZ3gkXA4hKt3hKt3hbCYTZA4hKoMFQt3BREwjKtXVStLiPtLiY1gkQtX2UwQzTMk1cE4hKt3hKt3hYNQESF4hKy.CTkcWZLgGRowjQlYFRm4hKtfkKCYUV2o2TPcldS4TUDgzYQETQnwDaVAUPt3hKt3hK0XlYPojKlYTZQEERt3VQT4hKt3hKtXFUHAUQAkEQFUDUHgGVZETQt3hKt3hKtMjKCcmKtDESFUjVtXlUPEjKt3hKt3BZPAEUF4BTXQETmgTZuUDUt3hKt3hKl4DQDUDQtPjQEQka2gkVAUjKt3hKt3haC4xRm4hKj0jdWcCRowDdHMUPOY2TQ4hK14DVLQjTIACUQMUPBgjYtfWQYIlYCYUPF4hKt3hKt3hKNgDTn4BUHc1QOgzcWcUPt3hKt3hKtX1PGIURtnjTyb2PVcCLU4hKt3hKt3hKyXlKUYjKlQDY2XWRWMVQt3hKt3hKt3hSD4FQtbGVqYDUybGVkslPt3hKt3hKlMjPHEjKOY0aAUTYLEyUu4hKt3hKt3xLPYGVt3hcXg1bD8DdHkFS3cCTAklZE4hKhQjQGgiZScTPBgjYtHESlYlTFcjKmUkYA4hKt3hKt3hYCITPmETQwMycCozMvTkKt3hKt3hKtLic2AERlg2TjciKFU1XE4hKt3hKt3hKNgDQpEjVPg1Q3Y1cWcUPt3hKt3hKtX1PAsxLtfzXtITQRwjUU8lKt3hKt3hKzXlKNIjK1MkVPEkRogSUJ4hKt3hKt3hSDwDat3BSrg0R2kFS3gTZLA0M1gTVA4hKYcmcQ8DM5EkYtHDRlgzPHQ1c2g0ULYkQt3hKGwjKtLjKAYlTFQkYWIFSVUTZqEjKtXWPCwjclIlKtLjKtLSQG8jZ2gUVt3hKhYmKtvjKt3xSIYFQjc2cXMFSVYjKt3xQL4hKCMiKPQkQTY1UhwjUGk1ZA4hK1EzPtXmKN4hdq4hTyTzQoAycXkkKt3hX14hKLY1PBkVPt3xYz.iT2PTdLgGRoYTQpc1Pt3hYDwDRTEES2oGUl4hPHYlKBgkPMYERoEjUV4hKt3hQt.kSt3FQD4hKFMEdyfGVZEjKt3hKt3hK1MjKokjKtXVRFszYLYDVmEjKt3BVt3xMt3BUH4hKXETQpwTZA4hKt3hKt3hK14jKLYUPHEjQTgGQnM0RA4hKt3hKt3hbC4RZz3hKlACZLgGSrYkKt3hKt3hKtTCT1gkPtXGVCgSQOgGRowDdT4hPnQjPt3hYAYzP3nWUlgDUQwzcDgjYtDCU2gjdXoUPt3hKt3hKt31PC8TRB4hYvTESB0DaV4hKt3hKt3hK0XlcMojKtf0TMoFTo8VQt3hKt3hKtXlStPjZB4hKVcETIoGVZEjKt3hKt3hKtMzPF8lKtXFLUAkP2klUt3hYL4hXA4BNPY2TJ4hKXglcnAUZuUjKt3hKt3hKl8DSDwlKtLCLPU1cowDdHkFSQciYHclKt3BVPgFTLgidPsTPBgjYtHDRogCQWcTSF4hKtX2Pt3hQAMTPlUEYlAUUCEjUFkVPt3hK23hKt.ETP4BTDojPLwFRrY2cX4hKt3xSt3hKD41Ptf2Lt3BZ3fVRqwjQt3hK1MjKt3RP0.kcXQjK1gUVA4hKoEjKt3hKt3hKt3hStHlZB4BSrAUZMECVt3hKt3hKt3hKlMDQokkKtjVSwfUZIkFS3gTZA4jbB4hZtUDYXgEQSUzYUAEU3n1TEEjPN0TRSoTZEYTTtbiKt3BT1EkKt4RPB4ldUgmZ3UUXt3hKO4hKtPjXC4BZI4RPZ8VZL8lKwXjKtX2Pt3hKAYUPlgkPHYGUTgzTJk1bA4hK23hKt.kcN4BSF4hKLY0TvwDdX4hKt3hKt3hKtX1PtjVPt3BV3f1RzwjQt3hKt3hKt3hK13hcX4hK1gUZMECV3gTZLgmdPMjZ1clKPEzQCwDN5EkYPoFUUACQHYFTxfiHfHVXyUlMznCbx81YxEVa8HRL1DiKtPDLM4xLpMkKt.kRt3hKt3hKt3RQxQjKD4hcAkVVvzjKtv1Tt3BTJ4hKt3hKt3hKBcCQt3hK1ETZqQjKNgTQL4hKl0jKyHjKt3hKtHzLE4xPtXWPkkzTL8FSFckKt3hKt3hKt3BSt3hQLYjKt3hcAk1XD4hKHUDSt3hYM4xLB4hKt3hKBwjQtLjK1ETYyIESvvjQW4hKt3hKt3hKtfjKtTDSF4hKtXWPj0jdWcCRowDdHkVPtPjYHclKt3hKPAkK1YVUVwDNDQER3n1TEEDdqHkRuo1JKkjHu3COskFYoMzPu3COuPVY3UFYSQWXzUlO.."
+              programState="6198.CMlaKA....fQPMDZ....APTY3QF.A.......ffUVL8DTH8jSEA...........................bg9VMjLgD+E...OjUFdkQ1TzEFckAxX0Q2alYVOhDiKv.CLv.CLv.CLv.CLv.CLv.CLv.iHfHWYy8VOh.iKv.CLv.CLv.CLv.CLv.CLv.CLv.iHfbVXo4VOhDiKv.CLv.CLv.CLv.CLv.CLv.CLv.iHfLVcxIWYtQGTx81YxEVa8HhLyHBHs8lau0zajUVOh.iHfTlamklakQUdvUVOhDiHfzVXyQWYxQUctUVOh.iHf7FbScWZzMFZ8HRLwDSLwDiHfbGZkUFaM8FY8HBLf.CHv.BLh.hYu8FcM8FY8HBLf.CHv.BLh.hXxUVXzgVSuQVOh.CHv.BLf.iHfDlYzUlbz8VcigVSuQVOh.CHv.BLf.iHfD1XzklckYTZrU1PgIGcxkFYmUVOhLjNbU0bkI2bbgjTGwUPvAGQgQWXbI0ag0VZtcFWDk1YoQWXrMUchUmbhElabQTY3UFYbMTXxQmboQ1YkMGWR8TSywkTu0lLg4xb4gmH9vCYkgWYjIDauIFHhE1bkYCM5LWdyUFd8HBMw.CMtX2SD4RRtHjKoQidRgVPEAkKAYWRt3hKtLicAsjRx4RTIE0PQkVSrckKhIjKt3hKP4xLq4hKLYUSUgjQX4RPD4Rat3hKtXFQtjGRP4BQqQzQD0TLXIVP1kjKt3hKtDjYWIDQ1gELTcFVlEDQP4hXB4hKt3hStPjPAEDTTIkXPoGVocWQtzlKt3hKlMjKikjKtj1X5c0MHkFS3gzPAgDSB4hKt3hRp4RURMTS5MES3PDRl4hTRYzcC4RZMYEVt3hPtTkK14jK2fFRtfTZQcVP1gUP2MjKl4hKt3hZB4hKY4hKkcWQGcCSrYkKt3BStX2PtjCQ1AkPtXFVWEjKtL1aE4hKtHjKU4hcNgjZq4hK2.yUt3hcXY1ZE4hYt3hKtvTZGgTRt3xMt3xPB0DaVcVPtfjKt3hKAcmcXIjKt3hKt3hK3gTZLgGQQMzZtgWPocVPFYzcTUEUUQDRl4BZLY1MC4BSXoGVZ0jQtjmKt3hKpMjKOkjKtrhKtLjQMwlUoEjcL4hKt3BMtXmTB4hYLMmbmEUZMEyUtvzPt3hK14DRxQDQtPjQTAUV5gkVAUjK44hKt3hZC4xRAEjKq3hKCYTSrYUZAYGSt3hKtPiKtLkPt3xStA0YQUFNUUkKLMjKt3hcNgDSFIjKt3hKt3hYLgGRowjPTAURv4hKtfkY2MkP3PUTl4hPHYlKBgTRYQzStvTLXcVPtfjKTEjK13hcKQkKPUkQEYjKoUDQO4hKB4hKt.kRtf0PD4xMEckX1kGVZEjKtXmKt7jKyLkK1XmKtf1XE4hKhsVUt3hKH4BUA4hMl4xUH4hcWUVPt3RZAYkUt3hPt3hK1wjQPQTPtPDQtvDV5gkVEYjKl4hKt3BQDQTZI4hKt3hKt3BRowDdHMDQMQEZJcDSFYDVLQzTAkTUR4TUDUkYtflU5o1YMkVSwfkKh4hKt3hYNIFSF4hKHwlPFMSZXkVSF4hKt3hKt3hLtnmatPDZzXWPtzTLXkVPt3hKt3hKyfjYQ4hK1gETy3BTo0DaX4BTB4hKt3hSBYGQt3xME4RVXkGVo0jQtzlKP0jKxMkKKEjKt3xb1ETPMECVoEjKt3hKt3hKLYGVB4hYWMDNE8DdHkFS3QzcAgFQB4hKlEjQSUDQVYFR5AkYtHDRlI1TKEFV5gUYUUjKt4lYOMjbC4hP24RPmETQTYTSrYkQA4xQt3hKtPiK1MkRtXWStXmYQk1avfkKLMjKt3BTNQjYD4hK1M0RggkdXUVUE4RTt3hKtH2PAkVTt3hLt3xPF0DaVkVP1wjKt3hKz3hYS4hKt7zbxcVTogSUU4BQA4RUtXmSLwjQA4hKt3hKtXFS3gTZLEDSPkDbt3hKXYmYPETSvP0S3n1Tl4hPHgzcpIjYLYzUt3hKt3hKt3xLtXVTP4hKSkzatbTZ2UjKt3hKt3hKt3jKHQTPtPTZRojKngEZQIjKnEjKt3hYC4BSQ4hK4ciYBUGSFckKt3hKt3hKt3VPtbEQt.EUMIFTFk1cEcjKt3hKt3hKB4hcp4hKtLjSJcCZXgVTB4BZA4hKtX1PtHVTt3BU3.yU2fTZLgGRS4xSyDEUH4hKJwDSEUkTqo1TG0TQHomK3ozStY1RocWQt3hKt3hKt3hStLyPB4hb3MjRyfGVhEjKt3hKt3hKlMjKBEkKtD2MlIDcLYzUt3hKt3hKt3xLtXWTB4hKG8jalsTZ2UjKtLyPtfVPtHlK1slKt.ELCozL3gkXA4hKt3hKt3hKG4xRI4hKgciYBQGSFckKt3hKt3hKtXmK1UkPt3RUkgSQOgGRowDdDY2PoolZC4hYAYzTQsFUIQidQMUPR0jYy.yQnE0YXEzLD4RZt4hKtn1PGgTVt3Bc1MjRtIFLUMVPt3hKt3hKX4hcTIjK1MEQzLjRo0TLX4hKPYUSPYlRtXmZt3BRSgja2fGVWsVQt3hKt3hKtbjKnkjKt.GQnojT1UDUBEjKt3hKt3BRQ4BUF4hYKUkZ20TZuMjKt3hKt3hKt3hKxslKt.ELWU1cowDdHkFSNIlcH8lbt3hY1YGUTkTUR4zX5QkYXMDRjgyYXQERV4hSAYGRJ4hKtbFTtDkPHk1R2XlPJc0XUckKt3hKt3hKN4xMpEjK2PTT4XFdXkVSF4xahUEUE41PAkTRlwjcDIjR0wTLUkUPt3hKt3hKPEkKXIDR4MEQzLjRo0TLX4BTngUcTYlRDMiZt3hYSgja2fGVWsVQt3hKt3hKtTjKokjKtPENvb0MHkFS3gzTtbDQ3gzSt3BRXwTQUI0ZpM0QMUDRx3hTMMETm0TZ2sVUt3hKt3hK18jX1glKtPUdDQEVoUkXYUjKt3hKt3xLCcjQI4hKl0TPEECSFckUA4hKt3hKtbicmAkPtXVU2AUTJkVPt3hKtfmSUwjKOQDSr4hKHYDSQgTZX4hKt3RLt3hKCY1PCkTRt3RZQMTQywjQt3hKt3hKt3hK1.kcXIjKlc0P3TzS3gTZLgGQ1MzYhIjPtXVPFMUTqQURznWTSEjPNYFQ4gkXPoFVnMWQtzFV4cTQP4BQREjKtzTTRozQMwFVnEjcI4hK1MjKlYFVt3BTSolZ3EUZIwFVtHlPt3xMt3BRLYjKtnGQSI0X5gEZIYjKs4hKt7jKtHTZA4hK4vzTGcTRvbkYAYmQtHlcAYWP1QkKt3hTL0TLQk1YEgkKhIjKNciKh4hdE4hKPAyUkcWZLgGRowTU2.URt3hKtLiYmAkTEoGUSEjPHYFTCgDL54xSvfjQTUUPl0jKt3hKIEjKWIDRS0TS1MUSnETUU4BVC4hKt.kStnVZtfGUSMzMTkFVPUUQtDiKt3hKpITPTkjYLkCVDUTLLYzUTEjKt3hKt3hVAYFVBgzTMQmcS0DZ3.yUtf0Pt3hKP4BQHslKtLSZQQEV4g0Y3TjKt3hKt3haCETZI4hKj0jdWcCRowDdHMkKOgjTH4hXDYDSHoFUA0DLTYlKBgDLtHzS3vzYQkVRVgkKt3hKt3BTNcDSq4hKPQTQTgkdXUFNE4hKt3hKt3VdAkVRt3BQQETQF0TLWUVPt3hKt3hK0HFTXIjKtDEUPcVToETLW4hKt3hKtXlSGwDat3hc4MzSXoGVZETQt3hKt3hKtkWPYkjKtPTTAUjQMEyUkEjKt3hKt3RMhYGVB4hYWMDNE8DdHkFS3Q0cCgFQB4hKlMjQBkTUPMUSEgTLtfFTCUTZMYER4gUNyLjKt3hKt3hYC4hQYAUPBc2ZEgGUS8TNtXWRt3BTCMiKlUkPt3RRpQUPOk1aEQkKt3hKt3hYN4hdp4hKPQjQSIVdXYUVE4hKt3hKt31PtjVRt3hZPIUQ2vDaVAUPt3hKt3hK03BTTIjKtDEVLcWSok0ZU4hKt3hKtXlSHcyZt3hK1cUY2kFS3gTZLcjX1czbD4hKPY1YPIUQ5Q0TAIDRlI1PHMmKnYTdLYjUREjKt3hKtDDMtbFUt3BTNsFSlwTZYMjKtHlPt3BV14jKLYjKtPEUIMDR4gULt3hKs4hKtXjbC4RZA4hK4PEdtjGSr0jKtXWRt3hYAYiK1gkPtXVTqwjKNkVVC4hKhIjKtfkYNQDVE4hKxMURC4VdXEiKt3Rat3hKF41PAkVPt3BU3.yU2fTZLgGRSUzSLIjKt3hKJwDRpQUPMACUl4hPHMiKnMUYYQjKoETLR4hXC4xRAAkSBoVQA4hKC4BSXoGVZUjQtjmKt3hKpMjKUkjKtjyMqEkKLYDVOEjKL4xLA4xcAYlUD4hYL4hclEUZuUEVtvzPt3hKP4DULwlKAwjdWYTP1gkY3PjK14hcP4BQtDjVQ4hK44hKCYTSrY0YAYGSt3hKtPiY1gkPt3hKt3hKtfGRowDdTAUPq4FZIk1YAkjTUoGTOkTQQUTREgjYLYDRnQSdXMTTC4xQt3hKtX1PG8lc1YTPYsFV4fjQtfVPt3hKt3hK1EDTOojKlkTTLY0SY8lcJ4hKt3hKt3hStXFQtDDVC4jXtPzUWEjKtnlKt3hKlMjKokjKtvFQ2gENpslPw4hKt3hKt3xLD4hKB4hYMMicAAkXiUjKt.kPt3hKt3hKt3hKtLCLPU1cowDdHkFStHlYJQCVt3haPIjTAkTUS8DMTI0PEQESoEDZXkCSw.kdtXWPt3hKtLyMQoDSxEETVkDaOgVPlgkKt3hKt3hKhEjdoIjKXIEQoAyTVojbB4hKt3hKtX1TtfTPP4RLlMzQtbGLXkVPtjjKt3hKyvjcXIjK1wTTLY0SY8lcJ4hKt3hKt3hSAwDat3BVC4jXtPzUWEjKtnlKt3hKtXmKoEjKtPVS5c0MHkFS3gzPtbjaR4jQ1MjRpYlZT0DM5AUPIMDRB0jdXgTPSQTZMECVt3hKt3hKt.kKHMjPBAkPJo1M4gkQqMjKt3hKt3hKCEzMHAkKHc2TJwDVqEkPq4hKt3hKt.UT1gkPH4BSTQUZKkFMUgkKt3hKt3hKhwDSr4hKyb2RynVTOcTUU8jKt3hKtXVZBkVRt3BMPEUSzvDaWcVPt3hKt3hKt3hcUIjKlQzM2TzS1wTZLgGV1MTZLgmPB4BQFYENTI0PUQDRl4BZLY1LtHkcDEUS0olPt3hKt3hKtPjPTEkYtTFUAkzJLwlUUEjKt3hKt3hcPYGVDQjYBMkZBMjctMTQI4hKt3hKtPES1slKBcSPEAiX3gEYEYjKt3hKt3hKGMTZI4hKS4VTMk0LB4zQzHjKt3hKtLyLl0DQtX2QTQ0TNkFMUgkKt3hKt3hKt3BSr4hKHEzSkc2PLkGRowDQ2XGRoQkYt3xYmU0SqoGTEEjPHYFSCgDYmMjQx3BaS4hKt3hKt3hKz.UPRYlK1gUQA4BVoEjKt3BTTgkKt3hSTQEQB4BSwDkKDwFU14hKtXmapsjKlMTQmETPtT1cSwDaLYEUt3hYH4hKt3xM1cGVB4hcXQGSB4BTyoGTtf0Pt3hKt7DRHUDQtbCLKQ1M3gkXA4hKt3hKt3hbCETZI4hKj0jdWcCRowDdHkVPOgjTH4hKtnjZhQzTOMGUQ4TSEQESAIUUncyYLkVSC4hKhIzPLYGTOAkZqQjR2TkSokTdXYlKt3Ra14xPLQ0QCMUT1gkcTUjQvwDaV4hK1kjKt3xPwAUPM4jZBQUUmclRo8VQt3hXB4hK1YmXHwDat3BQSUEVtgGVZEjKtzlKt3BSxMjK24lKt.UUEYDbLwlUt3hcI4hKtLzPtXGVB4hcXg1bD8DdHkFS3AkYtXlKt3hKtHjQVslZPUTPBgjYtfFSl4BTTIiKlMkSA4hKu4hKt3hYCUzRm4hKokELM4hKrMkKt.kRt3hKtLiY1MkKtXGVIEjYCIUPC4hKXMjKz4hKNgzLqEjK2rFS2oFdXIVPt3hKt3hKtH2PFkVPt3RZiQjKtfTQL4hKl0jKyHjKyXlcXYjK1cUbDMUSocWQt3hKt3hKtXlSTwjQt3xLv.UY2kFS3gTZLYjYlgzYt3hKX4xPVk0c5METmo2TNUEQHcVTAUDZLwlUPEjKt3hKt3RMlYFTJ4hYFkVTQgjKtUDUt3hKt3hKlQERPUTPYQjQEQER3gkVAUjKt3hKt3haC4xP24hKQwjQEokKlYETA4hKt3hKtfFTPQkQt.EVTA0YHk1aEQkKt3hKt3hYNQDQEQjKDYTQT41cXoUPE4hKt3hKt31PtrzYt3BYMo2U2fTZLgGRSEzS1MUTt3hcNgESDIURvPUTSEjPHYlK3UTVhY1PVEjQt3hKt3hKt3hSHAEZtPERmczSHc2UWEjKt3hKt3hKlMzQRkjKJI0L2MjU2.SUt3hKt3hKt3xLl4RUF4hYDQ1M1kzUiUjKt3hKt3hKt3DQtQjK2g0ZFQ0L2gUYqIjKt3hKt3hYCIDRA4xSV8VPEUFSwb0at3hKt3hKtLCT1gkKtXGVnMGQOgGRowDd2.UPooVQt3hXDYzQ3n1TGEjPHYlKRwjYlIkQG4xYUYVPt3hKt3hKtX1PBEzYAUTbyb2PJcCLU4hKt3hKt3hKyX2cPgjY3MEY23hQkMVQt3hKt3hKt3hSHQjZAoETncDdlc2UWEjKt3hKt3hKlMTPqLiKHMlaBUjTLYUUu4hKt3hKt3BMl4hSB4hcSoETQoTZ3TkRt3hKt3hKt3DQLwlKtvDaXszcowDdHkFSPcicHkUPt3RV2YWTOQidQYlKBgjYHMDRjc2cXcESVYjKt3xQL4hKC4RPlIkQTY1UhwjUEk1ZA4hK1EzPLYmYh4hKC4hKyTzQOo1cXkkKt3hX14hKL4hKt7TRlQDY2cGViwjUF4hKtbDSt3xPy3BTTYDUlckXLY0QosVPt3hcAMjK14hStn2ZtH0LEcTZvbGVY4hKtHlct3BSlMjPoEjKtbFMvH0MDkGS3gTZFUjZmMjKtXFQLgDUQwzc5QkYtHDRl4hPXITSVgTZAYkUt3hKtXjKP4jKtQDQt3hQSg2L3gkVA4hKt3hKt3hcC4RZI4hKlkjQKcFSFg0YA4hKtfkKtbiKtPERt3BVAUjZLkVPt3hKt3hKt3hcN4BSVEDRAYDU3QDZSsTPt3hKt3hKtH2PtjFMt3hYvfFS3wDaV4hKt3hKt3hK0.kcXIjK1g0P3TzS3gTZLgGUtHDZDIjKtXVPFMDN5UkYHQUTLcGQHYlKwP0cHoGVZEjKt3hKt3hKtMzPOkjPtXFLUwjPMwlUt3hKt3hKt3RMlYWSJ4hKXMUSpAUZuUjKt3hKt3hKl4jKDolPt3hUWAUR5gkVA4hKt3hKt3haCMjQu4hKlASUPIzcoYkKtXFStHVPtfCT1MkRt3BVnYGZPk1aE4hKt3hKt3hYOwDQr4hKy.CTkcWZLgGRowTT2XFRm4hKtfETnAES3nGTKEjPHYlKBgTZ3PzUG0jQt3hK1MjKtXTPCEjYUQlYPU0PAYkQoEjKt3xMt3hKPAETt.EQJIDSrgDa1cGVt3hKt7jKt3BQtMjK3MiKtfFNnkzZLYjKt3hcC4hKtDTMPYGVD4hcXkUPt3RZA4hKt3hKt3hKt3jKholPtvDaPkVSwfkKt3hKt3hKt3hYCQTZY4hKo0TLXkVRowDdHkVPNImPtnlaEQFVXQzTEcVUPQENpMUQAIjSMkzTJkVQFEkK23hKt.kcQ4hatDjPtoWU3oFdUElKt3xSt3hKDI1PtfVRtDjVukFSu4RLF4hK1MjKt3RPVEjYXIDR1QEUHMkRoMWPt3xMt3hKPYmStvjQt3BSVMEbLgGVt3hKt3hKt3hKlMjKoEjKtfENnsDcLYjKt3hKt3hKt3hMtXGVt3hcXkVSwfEdHkFS3oGTColcm4BTAczPLgidQYFTpQUUvPDRlAkL3HBHhE1bkYCM5.mbuclbg0VOhDiMw3hKDASStLiZS4hKPojKt3hKt3hKtTjbD4BQtXWPokELM4hKrMkKt.kRt3hKt3hKt3hP2PjKt3hcAk1ZD4hSHUDSt3hYM4xLB4hKt3hKBMSQtLjK1ETYIMESuwjQW4hKt3hKt3hKtvjKtXDSF4hKtXWPoMFQt3BREwjKtXVStLiPt3hKt3hPLYjKC4hcAU1bRwDLLYzUt3hKt3hKt3hKH4hKEwjQt3hK1EDYMo2U2fTZLgGRoEjKDYFRm4hKt3BTP4hclUkULgCQTgDNpMUQAg2JRozapsxRIIxK9vSaoQVZCMzK9vyKjUFdkQ1TzEFck4C."
+              program="23" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="audio" name="Output 0 1" symbol="audio_out_1"
+                  flow="output"/>
+            <port index="1" channel="1" type="audio" name="Output 0 2" symbol="audio_out_2"
+                  flow="output"/>
+            <port index="2" channel="0" type="control" name="Cutoff" symbol="control_0"
+                  flow="input"/>
+            <port index="3" channel="1" type="control" name="Resonance" symbol="control_1"
+                  flow="input"/>
+            <port index="4" channel="2" type="control" name="Output" symbol="control_2"
+                  flow="input"/>
+            <port index="5" channel="3" type="control" name="MASTER TUNE ADJ" symbol="control_3"
+                  flow="input"/>
+            <port index="6" channel="4" type="control" name="ALGORITHM" symbol="control_4"
+                  flow="input"/>
+            <port index="7" channel="5" type="control" name="FEEDBACK" symbol="control_5"
+                  flow="input"/>
+            <port index="8" channel="6" type="control" name="OSC KEY SYNC" symbol="control_6"
+                  flow="input"/>
+            <port index="9" channel="7" type="control" name="LFO SPEED" symbol="control_7"
+                  flow="input"/>
+            <port index="10" channel="8" type="control" name="LFO DELAY" symbol="control_8"
+                  flow="input"/>
+            <port index="11" channel="9" type="control" name="LFO PM DEPTH" symbol="control_9"
+                  flow="input"/>
+            <port index="12" channel="10" type="control" name="LFO AM DEPTH" symbol="control_10"
+                  flow="input"/>
+            <port index="13" channel="11" type="control" name="LFO KEY SYNC" symbol="control_11"
+                  flow="input"/>
+            <port index="14" channel="12" type="control" name="LFO WAVE" symbol="control_12"
+                  flow="input"/>
+            <port index="15" channel="13" type="control" name="MIDDLE C" symbol="control_13"
+                  flow="input"/>
+            <port index="16" channel="14" type="control" name="P MODE SENS." symbol="control_14"
+                  flow="input"/>
+            <port index="17" channel="15" type="control" name="PITCH EG RATE 1"
+                  symbol="control_15" flow="input"/>
+            <port index="18" channel="16" type="control" name="PITCH EG RATE 2"
+                  symbol="control_16" flow="input"/>
+            <port index="19" channel="17" type="control" name="PITCH EG RATE 3"
+                  symbol="control_17" flow="input"/>
+            <port index="20" channel="18" type="control" name="PITCH EG RATE 4"
+                  symbol="control_18" flow="input"/>
+            <port index="21" channel="19" type="control" name="PITCH EG LEVEL 1"
+                  symbol="control_19" flow="input"/>
+            <port index="22" channel="20" type="control" name="PITCH EG LEVEL 2"
+                  symbol="control_20" flow="input"/>
+            <port index="23" channel="21" type="control" name="PITCH EG LEVEL 3"
+                  symbol="control_21" flow="input"/>
+            <port index="24" channel="22" type="control" name="PITCH EG LEVEL 4"
+                  symbol="control_22" flow="input"/>
+            <port index="25" channel="23" type="control" name="OP1 EG RATE 1" symbol="control_23"
+                  flow="input"/>
+            <port index="26" channel="24" type="control" name="OP1 EG RATE 2" symbol="control_24"
+                  flow="input"/>
+            <port index="27" channel="25" type="control" name="OP1 EG RATE 3" symbol="control_25"
+                  flow="input"/>
+            <port index="28" channel="26" type="control" name="OP1 EG RATE 4" symbol="control_26"
+                  flow="input"/>
+            <port index="29" channel="27" type="control" name="OP1 EG LEVEL 1"
+                  symbol="control_27" flow="input"/>
+            <port index="30" channel="28" type="control" name="OP1 EG LEVEL 2"
+                  symbol="control_28" flow="input"/>
+            <port index="31" channel="29" type="control" name="OP1 EG LEVEL 3"
+                  symbol="control_29" flow="input"/>
+            <port index="32" channel="30" type="control" name="OP1 EG LEVEL 4"
+                  symbol="control_30" flow="input"/>
+            <port index="33" channel="31" type="control" name="OP1 OUTPUT LEVEL"
+                  symbol="control_31" flow="input"/>
+            <port index="34" channel="32" type="control" name="OP1 MODE" symbol="control_32"
+                  flow="input"/>
+            <port index="35" channel="33" type="control" name="OP1 F COARSE" symbol="control_33"
+                  flow="input"/>
+            <port index="36" channel="34" type="control" name="OP1 F FINE" symbol="control_34"
+                  flow="input"/>
+            <port index="37" channel="35" type="control" name="OP1 OSC DETUNE"
+                  symbol="control_35" flow="input"/>
+            <port index="38" channel="36" type="control" name="OP1 BREAK POINT"
+                  symbol="control_36" flow="input"/>
+            <port index="39" channel="37" type="control" name="OP1 L SCALE DEPTH"
+                  symbol="control_37" flow="input"/>
+            <port index="40" channel="38" type="control" name="OP1 R SCALE DEPTH"
+                  symbol="control_38" flow="input"/>
+            <port index="41" channel="39" type="control" name="OP1 L KEY SCALE"
+                  symbol="control_39" flow="input"/>
+            <port index="42" channel="40" type="control" name="OP1 R KEY SCALE"
+                  symbol="control_40" flow="input"/>
+            <port index="43" channel="41" type="control" name="OP1 RATE SCALING"
+                  symbol="control_41" flow="input"/>
+            <port index="44" channel="42" type="control" name="OP1 A MOD SENS."
+                  symbol="control_42" flow="input"/>
+            <port index="45" channel="43" type="control" name="OP1 KEY VELOCITY"
+                  symbol="control_43" flow="input"/>
+            <port index="46" channel="44" type="control" name="OP1 SWITCH" symbol="control_44"
+                  flow="input"/>
+            <port index="47" channel="45" type="control" name="OP2 EG RATE 1" symbol="control_45"
+                  flow="input"/>
+            <port index="48" channel="46" type="control" name="OP2 EG RATE 2" symbol="control_46"
+                  flow="input"/>
+            <port index="49" channel="47" type="control" name="OP2 EG RATE 3" symbol="control_47"
+                  flow="input"/>
+            <port index="50" channel="48" type="control" name="OP2 EG RATE 4" symbol="control_48"
+                  flow="input"/>
+            <port index="51" channel="49" type="control" name="OP2 EG LEVEL 1"
+                  symbol="control_49" flow="input"/>
+            <port index="52" channel="50" type="control" name="OP2 EG LEVEL 2"
+                  symbol="control_50" flow="input"/>
+            <port index="53" channel="51" type="control" name="OP2 EG LEVEL 3"
+                  symbol="control_51" flow="input"/>
+            <port index="54" channel="52" type="control" name="OP2 EG LEVEL 4"
+                  symbol="control_52" flow="input"/>
+            <port index="55" channel="53" type="control" name="OP2 OUTPUT LEVEL"
+                  symbol="control_53" flow="input"/>
+            <port index="56" channel="54" type="control" name="OP2 MODE" symbol="control_54"
+                  flow="input"/>
+            <port index="57" channel="55" type="control" name="OP2 F COARSE" symbol="control_55"
+                  flow="input"/>
+            <port index="58" channel="56" type="control" name="OP2 F FINE" symbol="control_56"
+                  flow="input"/>
+            <port index="59" channel="57" type="control" name="OP2 OSC DETUNE"
+                  symbol="control_57" flow="input"/>
+            <port index="60" channel="58" type="control" name="OP2 BREAK POINT"
+                  symbol="control_58" flow="input"/>
+            <port index="61" channel="59" type="control" name="OP2 L SCALE DEPTH"
+                  symbol="control_59" flow="input"/>
+            <port index="62" channel="60" type="control" name="OP2 R SCALE DEPTH"
+                  symbol="control_60" flow="input"/>
+            <port index="63" channel="61" type="control" name="OP2 L KEY SCALE"
+                  symbol="control_61" flow="input"/>
+            <port index="64" channel="62" type="control" name="OP2 R KEY SCALE"
+                  symbol="control_62" flow="input"/>
+            <port index="65" channel="63" type="control" name="OP2 RATE SCALING"
+                  symbol="control_63" flow="input"/>
+            <port index="66" channel="64" type="control" name="OP2 A MOD SENS."
+                  symbol="control_64" flow="input"/>
+            <port index="67" channel="65" type="control" name="OP2 KEY VELOCITY"
+                  symbol="control_65" flow="input"/>
+            <port index="68" channel="66" type="control" name="OP2 SWITCH" symbol="control_66"
+                  flow="input"/>
+            <port index="69" channel="67" type="control" name="OP3 EG RATE 1" symbol="control_67"
+                  flow="input"/>
+            <port index="70" channel="68" type="control" name="OP3 EG RATE 2" symbol="control_68"
+                  flow="input"/>
+            <port index="71" channel="69" type="control" name="OP3 EG RATE 3" symbol="control_69"
+                  flow="input"/>
+            <port index="72" channel="70" type="control" name="OP3 EG RATE 4" symbol="control_70"
+                  flow="input"/>
+            <port index="73" channel="71" type="control" name="OP3 EG LEVEL 1"
+                  symbol="control_71" flow="input"/>
+            <port index="74" channel="72" type="control" name="OP3 EG LEVEL 2"
+                  symbol="control_72" flow="input"/>
+            <port index="75" channel="73" type="control" name="OP3 EG LEVEL 3"
+                  symbol="control_73" flow="input"/>
+            <port index="76" channel="74" type="control" name="OP3 EG LEVEL 4"
+                  symbol="control_74" flow="input"/>
+            <port index="77" channel="75" type="control" name="OP3 OUTPUT LEVEL"
+                  symbol="control_75" flow="input"/>
+            <port index="78" channel="76" type="control" name="OP3 MODE" symbol="control_76"
+                  flow="input"/>
+            <port index="79" channel="77" type="control" name="OP3 F COARSE" symbol="control_77"
+                  flow="input"/>
+            <port index="80" channel="78" type="control" name="OP3 F FINE" symbol="control_78"
+                  flow="input"/>
+            <port index="81" channel="79" type="control" name="OP3 OSC DETUNE"
+                  symbol="control_79" flow="input"/>
+            <port index="82" channel="80" type="control" name="OP3 BREAK POINT"
+                  symbol="control_80" flow="input"/>
+            <port index="83" channel="81" type="control" name="OP3 L SCALE DEPTH"
+                  symbol="control_81" flow="input"/>
+            <port index="84" channel="82" type="control" name="OP3 R SCALE DEPTH"
+                  symbol="control_82" flow="input"/>
+            <port index="85" channel="83" type="control" name="OP3 L KEY SCALE"
+                  symbol="control_83" flow="input"/>
+            <port index="86" channel="84" type="control" name="OP3 R KEY SCALE"
+                  symbol="control_84" flow="input"/>
+            <port index="87" channel="85" type="control" name="OP3 RATE SCALING"
+                  symbol="control_85" flow="input"/>
+            <port index="88" channel="86" type="control" name="OP3 A MOD SENS."
+                  symbol="control_86" flow="input"/>
+            <port index="89" channel="87" type="control" name="OP3 KEY VELOCITY"
+                  symbol="control_87" flow="input"/>
+            <port index="90" channel="88" type="control" name="OP3 SWITCH" symbol="control_88"
+                  flow="input"/>
+            <port index="91" channel="89" type="control" name="OP4 EG RATE 1" symbol="control_89"
+                  flow="input"/>
+            <port index="92" channel="90" type="control" name="OP4 EG RATE 2" symbol="control_90"
+                  flow="input"/>
+            <port index="93" channel="91" type="control" name="OP4 EG RATE 3" symbol="control_91"
+                  flow="input"/>
+            <port index="94" channel="92" type="control" name="OP4 EG RATE 4" symbol="control_92"
+                  flow="input"/>
+            <port index="95" channel="93" type="control" name="OP4 EG LEVEL 1"
+                  symbol="control_93" flow="input"/>
+            <port index="96" channel="94" type="control" name="OP4 EG LEVEL 2"
+                  symbol="control_94" flow="input"/>
+            <port index="97" channel="95" type="control" name="OP4 EG LEVEL 3"
+                  symbol="control_95" flow="input"/>
+            <port index="98" channel="96" type="control" name="OP4 EG LEVEL 4"
+                  symbol="control_96" flow="input"/>
+            <port index="99" channel="97" type="control" name="OP4 OUTPUT LEVEL"
+                  symbol="control_97" flow="input"/>
+            <port index="100" channel="98" type="control" name="OP4 MODE" symbol="control_98"
+                  flow="input"/>
+            <port index="101" channel="99" type="control" name="OP4 F COARSE" symbol="control_99"
+                  flow="input"/>
+            <port index="102" channel="100" type="control" name="OP4 F FINE" symbol="control_100"
+                  flow="input"/>
+            <port index="103" channel="101" type="control" name="OP4 OSC DETUNE"
+                  symbol="control_101" flow="input"/>
+            <port index="104" channel="102" type="control" name="OP4 BREAK POINT"
+                  symbol="control_102" flow="input"/>
+            <port index="105" channel="103" type="control" name="OP4 L SCALE DEPTH"
+                  symbol="control_103" flow="input"/>
+            <port index="106" channel="104" type="control" name="OP4 R SCALE DEPTH"
+                  symbol="control_104" flow="input"/>
+            <port index="107" channel="105" type="control" name="OP4 L KEY SCALE"
+                  symbol="control_105" flow="input"/>
+            <port index="108" channel="106" type="control" name="OP4 R KEY SCALE"
+                  symbol="control_106" flow="input"/>
+            <port index="109" channel="107" type="control" name="OP4 RATE SCALING"
+                  symbol="control_107" flow="input"/>
+            <port index="110" channel="108" type="control" name="OP4 A MOD SENS."
+                  symbol="control_108" flow="input"/>
+            <port index="111" channel="109" type="control" name="OP4 KEY VELOCITY"
+                  symbol="control_109" flow="input"/>
+            <port index="112" channel="110" type="control" name="OP4 SWITCH" symbol="control_110"
+                  flow="input"/>
+            <port index="113" channel="111" type="control" name="OP5 EG RATE 1"
+                  symbol="control_111" flow="input"/>
+            <port index="114" channel="112" type="control" name="OP5 EG RATE 2"
+                  symbol="control_112" flow="input"/>
+            <port index="115" channel="113" type="control" name="OP5 EG RATE 3"
+                  symbol="control_113" flow="input"/>
+            <port index="116" channel="114" type="control" name="OP5 EG RATE 4"
+                  symbol="control_114" flow="input"/>
+            <port index="117" channel="115" type="control" name="OP5 EG LEVEL 1"
+                  symbol="control_115" flow="input"/>
+            <port index="118" channel="116" type="control" name="OP5 EG LEVEL 2"
+                  symbol="control_116" flow="input"/>
+            <port index="119" channel="117" type="control" name="OP5 EG LEVEL 3"
+                  symbol="control_117" flow="input"/>
+            <port index="120" channel="118" type="control" name="OP5 EG LEVEL 4"
+                  symbol="control_118" flow="input"/>
+            <port index="121" channel="119" type="control" name="OP5 OUTPUT LEVEL"
+                  symbol="control_119" flow="input"/>
+            <port index="122" channel="120" type="control" name="OP5 MODE" symbol="control_120"
+                  flow="input"/>
+            <port index="123" channel="121" type="control" name="OP5 F COARSE"
+                  symbol="control_121" flow="input"/>
+            <port index="124" channel="122" type="control" name="OP5 F FINE" symbol="control_122"
+                  flow="input"/>
+            <port index="125" channel="123" type="control" name="OP5 OSC DETUNE"
+                  symbol="control_123" flow="input"/>
+            <port index="126" channel="124" type="control" name="OP5 BREAK POINT"
+                  symbol="control_124" flow="input"/>
+            <port index="127" channel="125" type="control" name="OP5 L SCALE DEPTH"
+                  symbol="control_125" flow="input"/>
+            <port index="128" channel="126" type="control" name="OP5 R SCALE DEPTH"
+                  symbol="control_126" flow="input"/>
+            <port index="129" channel="127" type="control" name="OP5 L KEY SCALE"
+                  symbol="control_127" flow="input"/>
+            <port index="130" channel="128" type="control" name="OP5 R KEY SCALE"
+                  symbol="control_128" flow="input"/>
+            <port index="131" channel="129" type="control" name="OP5 RATE SCALING"
+                  symbol="control_129" flow="input"/>
+            <port index="132" channel="130" type="control" name="OP5 A MOD SENS."
+                  symbol="control_130" flow="input"/>
+            <port index="133" channel="131" type="control" name="OP5 KEY VELOCITY"
+                  symbol="control_131" flow="input"/>
+            <port index="134" channel="132" type="control" name="OP5 SWITCH" symbol="control_132"
+                  flow="input"/>
+            <port index="135" channel="133" type="control" name="OP6 EG RATE 1"
+                  symbol="control_133" flow="input"/>
+            <port index="136" channel="134" type="control" name="OP6 EG RATE 2"
+                  symbol="control_134" flow="input"/>
+            <port index="137" channel="135" type="control" name="OP6 EG RATE 3"
+                  symbol="control_135" flow="input"/>
+            <port index="138" channel="136" type="control" name="OP6 EG RATE 4"
+                  symbol="control_136" flow="input"/>
+            <port index="139" channel="137" type="control" name="OP6 EG LEVEL 1"
+                  symbol="control_137" flow="input"/>
+            <port index="140" channel="138" type="control" name="OP6 EG LEVEL 2"
+                  symbol="control_138" flow="input"/>
+            <port index="141" channel="139" type="control" name="OP6 EG LEVEL 3"
+                  symbol="control_139" flow="input"/>
+            <port index="142" channel="140" type="control" name="OP6 EG LEVEL 4"
+                  symbol="control_140" flow="input"/>
+            <port index="143" channel="141" type="control" name="OP6 OUTPUT LEVEL"
+                  symbol="control_141" flow="input"/>
+            <port index="144" channel="142" type="control" name="OP6 MODE" symbol="control_142"
+                  flow="input"/>
+            <port index="145" channel="143" type="control" name="OP6 F COARSE"
+                  symbol="control_143" flow="input"/>
+            <port index="146" channel="144" type="control" name="OP6 F FINE" symbol="control_144"
+                  flow="input"/>
+            <port index="147" channel="145" type="control" name="OP6 OSC DETUNE"
+                  symbol="control_145" flow="input"/>
+            <port index="148" channel="146" type="control" name="OP6 BREAK POINT"
+                  symbol="control_146" flow="input"/>
+            <port index="149" channel="147" type="control" name="OP6 L SCALE DEPTH"
+                  symbol="control_147" flow="input"/>
+            <port index="150" channel="148" type="control" name="OP6 R SCALE DEPTH"
+                  symbol="control_148" flow="input"/>
+            <port index="151" channel="149" type="control" name="OP6 L KEY SCALE"
+                  symbol="control_149" flow="input"/>
+            <port index="152" channel="150" type="control" name="OP6 R KEY SCALE"
+                  symbol="control_150" flow="input"/>
+            <port index="153" channel="151" type="control" name="OP6 RATE SCALING"
+                  symbol="control_151" flow="input"/>
+            <port index="154" channel="152" type="control" name="OP6 A MOD SENS."
+                  symbol="control_152" flow="input"/>
+            <port index="155" channel="153" type="control" name="OP6 KEY VELOCITY"
+                  symbol="control_153" flow="input"/>
+            <port index="156" channel="154" type="control" name="OP6 SWITCH" symbol="control_154"
+                  flow="input"/>
+            <port index="157" channel="0" type="midi" name="MIDI" symbol="midi_in_0"
+                  flow="input"/>
+            <port index="158" channel="0" type="midi" name="MIDI" symbol="midi_out_0"
+                  flow="output"/>
+          </ports>
+        </node>
+        <node id="11" type="plugin" format="VST" identifier="E:\Projects\MsDev\pizmidi\Debug\midiProgramChangex64Debug.dll"
+              name="midiProgramChangex64Debug" relativeX="0.2088998763906057"
+              relativeY="0.2345549738219895" pluginIdentifierString="VST-midiProgramChangex64Debug-4ad04ddb-6d507267"
+              uuid="96312526911a4db8a95a8874a883ef4c" bypass="0" persistent="1"
+              renderMode="single" keyStart="0" keyEnd="127" transpose="0" x="259.0"
+              y="201.0" windowX="525" windowY="151" windowVisible="0" state="216.CMlaKA....fQ3IzZ....AzFTxcF...P.....A...........................................................................................................................................................................CMlaKA....fQ3MzZ....AzFTxcF...P.....ADjbzUmboEFHMkFYoAxRkkmXuElbjA........vO.B.."
+              programState="60.CMlaKA....fQ3MzZ....AzFTxcF...P.....ADjbzUmboEFHMkFYoAxRkkmXuElbjA........vO.B.."
+              program="0" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="control" name="Power" symbol="control_0"
+                  flow="input"/>
+            <port index="1" channel="0" type="midi" name="MIDI" symbol="midi_in_0"
+                  flow="input"/>
+            <port index="2" channel="0" type="midi" name="MIDI" symbol="midi_out_0"
+                  flow="output"/>
+          </ports>
+        </node>
+        <node id="12" type="plugin" format="VST" identifier="E:\Projects\MsDev\pizmidi\Debug\midiFromJoystickx64Debug.dll"
+              name="midiFromJoystickx64Debug" relativeX="0.08652657601977751"
+              relativeY="0.149738219895288" pluginIdentifierString="VST-midiFromJoystickx64Debug-2d8c3365-6d4a6f79"
+              uuid="9fef75a2f17c41f8bda53f112093fada" bypass="0" persistent="1"
+              renderMode="single" keyStart="0" keyEnd="127" transpose="0" x="68.0"
+              y="120.0" windowX="170" windowY="120" windowVisible="0" state="428.CMlaKA....fQ3IzZ....AzlRukG...P.....D...........................................................................................................................................................................CMlaKA....fQ3MzZ....AzlRukG...P.....C7TczAWczAxatAxXnElatUFafDCL.....................7Cf..vPi41R.....XDdCsF...P.soza4A...D....v.PI2amIWXsAhL....................................+.H..LzXtsD.....Fg2PqA...DPaJ8Vd....A....L.Tx81YxEVafLC...................................vO.B..CMlaKA....fQ3MzZ....AzlRukG...P.....C.kbuclbg0FHz....................................7Cf..."
+              programState="68.CMlaKA....fQ3MzZ....AzlRukG...P.....C7TczAWczAxatAxXnElatUFafDCL.....................7Cf..."
+              program="0" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="control" name="Channel Out" symbol="control_0"
+                  flow="input"/>
+            <port index="1" channel="1" type="control" name="Joystick" symbol="control_1"
+                  flow="input"/>
+            <port index="2" channel="2" type="control" name="Power" symbol="control_2"
+                  flow="input"/>
+            <port index="3" channel="0" type="midi" name="MIDI" symbol="midi_in_0"
+                  flow="input"/>
+            <port index="4" channel="0" type="midi" name="MIDI" symbol="midi_out_0"
+                  flow="output"/>
+          </ports>
+        </node>
+        <node id="13" type="plugin" format="Element" identifier="element.midiMonitor"
+              name="MIDI Monitor" relativeX="0.1977750309023486" relativeY="0.3602094240837697"
+              pluginIdentifierString="Element-MIDI Monitor-b08bd707-3f8" uuid="e846afb48eef4dfa8dadfdfae57f59a9"
+              bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127"
+              transpose="0" x="260.0" y="321.0" windowX="1102" windowY="198"
+              windowVisible="1" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="midi" name="MIDI In" symbol="midi_in"
+                  flow="input"/>
+            <port index="1" channel="0" type="midi" name="MIDI Out" symbol="midi_out"
+                  flow="output"/>
+          </ports>
+        </node>
+        <node id="14" type="plugin" format="VST" identifier="E:\Projects\MsDev\pizmidi\Debug\midiUartBridgex64Debug.dll"
+              name="midiUartBridgex64Debug" relativeX="0.09085290482076638"
+              relativeY="0.4837696335078534" pluginIdentifierString="VST-midiUartBridgex64Debug-991618d6-6d436f6d"
+              uuid="e63b0bf2f3954a12a564cb8d8ea57e8a" bypass="0" persistent="1"
+              renderMode="single" keyStart="0" keyEnd="127" transpose="0" x="80.0"
+              y="439.0" windowX="121" windowY="311" windowVisible="0" state="428.CMlaKA....fQ3IzZ....Az1Pu0F...P.....D...........................................................................................................................................................................CMlaKA....fQ3MzZ....Az1Pu0F...P.....CLDZg4lakwFHw.C.............................+.H..7Cf..vPi41R.....XDdCsF...P.sMzasA...D....v.PI2amIWXsAhL..............................vO.B..+.H..LzXtsD.....Fg2PqA...DPaC8Va....A....L.Tx81YxEVafLC..............................7Cf..vO.B..CMlaKA....fQ3MzZ....Az1Pu0F...P.....C.kbuclbg0FHz...............................+.H..7Cf..."
+              programState="68.CMlaKA....fQ3MzZ....Az1Pu0F...P.....CLDZg4lakwFHw.C.............................+.H..7Cf..."
+              program="0" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="control" name="Channel Out" symbol="control_0"
+                  flow="input"/>
+            <port index="1" channel="1" type="control" name="COM Port" symbol="control_1"
+                  flow="input"/>
+            <port index="2" channel="2" type="control" name="Power" symbol="control_2"
+                  flow="input"/>
+            <port index="3" channel="0" type="midi" name="MIDI" symbol="midi_in_0"
+                  flow="input"/>
+            <port index="4" channel="0" type="midi" name="MIDI" symbol="midi_out_0"
+                  flow="output"/>
+          </ports>
+        </node>
+        <node id="15" type="plugin" format="Element" identifier="element.midiMonitor"
+              name="MIDI Monitor" relativeX="0.08652657601977751" relativeY="0.6010471204188481"
+              pluginIdentifierString="Element-MIDI Monitor-b08bd707-3f8" uuid="cc8780696d644451b828afcd359b663f"
+              bypass="0" persistent="1" renderMode="single" keyStart="0" keyEnd="127"
+              transpose="0" x="80.0" y="551.0" windowX="1453" windowY="202"
+              windowVisible="1" midiProgram="0" globalMidiPrograms="0" midiProgramsEnabled="0"
+              mute="0" muteInput="0" midiProgramsState="52.3o8Jnn7SunDysXFXfQFK.BaFXjY3rXkQF.BxKwbSkAFYhUFJtjDKAHKVX0.8XfA.h2YCaB"
+              oversamplingFactor="1" enabled="1">
+          <nodes/>
+          <ui/>
+          <ports>
+            <port index="0" channel="0" type="midi" name="MIDI In" symbol="midi_in"
+                  flow="input"/>
+            <port index="1" channel="0" type="midi" name="MIDI Out" symbol="midi_out"
+                  flow="output"/>
+          </ports>
+        </node>
+      </nodes>
+      <ports/>
+      <ui>
+        <GraphEditorView width="1698" height="955" horizontalRangeStart="0.0" verticalRangeStart="0.0"/>
+      </ui>
+      <arcs>
+        <arc sourceNode="5" sourcePort="0" destNode="11" destPort="1"/>
+        <arc sourceNode="10" sourcePort="0" destNode="9" destPort="0"/>
+        <arc sourceNode="10" sourcePort="1" destNode="9" destPort="1"/>
+        <arc sourceNode="11" sourcePort="2" destNode="13" destPort="0"/>
+        <arc sourceNode="12" sourcePort="4" destNode="13" destPort="0"/>
+        <arc sourceNode="13" sourcePort="1" destNode="10" destPort="157"/>
+        <arc sourceNode="13" sourcePort="1" destNode="14" destPort="3"/>
+        <arc sourceNode="14" sourcePort="4" destNode="15" destPort="0"/>
+      </arcs>
+    </node>
+  </graphs>
+  <controllers/>
+  <maps/>
+  <ui content="128.3ocCIGqCBBCD..sL3uCKR.VMXarEhxfV8HwARnjR4jKQujV+60256COxNQV1YZxImVX5cCswtM1t3hhrm6JKy2S0FNbrUeS8HPUoKx4ql3fWCbAMLXv0sUE30+2BMfRBwCJLD0uP.G8RapOtFfDbW2zkN8sKetvV22JD+3GkpjC"/>
+</session>

@@ -36,14 +36,14 @@
 // BEGIN SECTION A
 
 #ifndef JUCE_DISPLAY_SPLASH_SCREEN
- #define JUCE_DISPLAY_SPLASH_SCREEN 0
+ #define JUCE_DISPLAY_SPLASH_SCREEN 1
 #endif
 
 // END SECTION A
 
 #define JUCE_USE_DARK_SPLASH_SCREEN 1
 
-#define JUCE_PROJUCER_VERSION 0x60004
+#define JUCE_PROJUCER_VERSION 0x60007
 
 //==============================================================================
 #define JUCE_MODULE_AVAILABLE_jlv2_host                  1
