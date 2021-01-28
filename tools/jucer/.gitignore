@@ -13,7 +13,11 @@ ElementMFX/JuceLibraryCode/**/*.*
 !ElementMFX/JuceLibraryCode/AppConfig.h
 !ElementMFX/JuceLibraryCode/JuceHeader.h
 
-Standalone/Builds/
+#Standalone/Builds/
+Standalone/Builds/Mac*
+Standalone/Builds/Vis*/x64
+Standalone/Builds/Vis*/x86
+.vs
 Standalone/JuceLibraryCode/**/*.*
 !Standalone/JuceLibraryCode/AppConfig.h
 !Standalone/JuceLibraryCode/JuceHeader.h
