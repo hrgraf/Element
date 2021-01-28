@@ -78,11 +78,17 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Element</TargetName>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\Projects\MsDev\boost_1_75_0;E:\Projects\MsDev\asiosdk_2.3\common;E:\Projects\MsDev\vstsdk2.4</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\Projects\MsDev\boost_1_75_0;E:\Projects\MsDev\asiosdk_2.3\common;E:\Projects\MsDev\vstsdk2.4</IncludePath>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\Projects\MsDev\boost_1_75_0;E:\Projects\MsDev\asiosdk_2.3\common</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\Projects\MsDev\boost_1_75_0;E:\Projects\MsDev\asiosdk_2.3\common;E:\Projects\MsDev\vstsdk2.4</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\Projects\MsDev\boost_1_75_0;E:\Projects\MsDev\asiosdk_2.3\common</IncludePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\Projects\MsDev\boost_1_75_0;E:\Projects\MsDev\asiosdk_2.3\common;E:\Projects\MsDev\vstsdk2.4</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
